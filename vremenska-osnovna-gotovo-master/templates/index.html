@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Dobrodošli na Državno hidrometeorološki zavod</h1>
+
+<p>
+    Državno meteorološki zavod Vam donosi prognozu za 3 hrvatska grada.
+</p>
+
+<div class="container">
+  <img src="static/img/zagreb.jpg" class="image">
+  <div class="overlay">
+    <div class="text">Zagreb-glavni grad Hrvatske</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="static/img/rijeka.jpg" class="image">
+  <div class="overlay">
+    <div class="text">Rijeka-hrvatska luka</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="static/img/split.jpg" class="image">
+  <div class="overlay">
+    <div class="text">Split-Dioklecijanov grad</div>
+  </div>
+</div>
+
+
+
+{% endblock content %}
